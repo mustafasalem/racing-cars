@@ -1,0 +1,75 @@
+body {
+  background-image: url("covor.jpg");
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+}
+
+.car1 {
+  margin-top: 232px;
+  animation-name: example1;
+  animation-duration: 4s;
+}
+
+.car2 {
+  margin-top: 8px;
+  animation-name: example2;
+  animation-duration: 2s;
+}
+
+@keyframes example1 {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 200px;
+  }
+  50% {
+    margin-left: 400px;
+  }
+  75% {
+    margin-left: 500px;
+  }
+  100% {
+    margin-left: 900px;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 100px;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  75% {
+    margin-left: 600px;
+  }
+  100% {
+    margin-left: 900px;
+  }
+}
+
+.car3 {
+  animation-name: example3;
+  animation-duration: 1s;
+}
+@keyframes example3 {
+  0% {
+    margin-left: 0px;
+  }
+  25% {
+    margin-left: 100px;
+  }
+  50% {
+    margin-left: 150px;
+  }
+  75% {
+    margin-left: 560px;
+  }
+  100% {
+    margin-left: 800px;
+  }
+}
